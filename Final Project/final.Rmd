@@ -1,0 +1,14 @@
+---
+title: "final"
+output: html_document
+---
+
+```{r}
+
+
+```
+
+
+$\beta_0$
+
+$\beta_0^2$
