@@ -1,0 +1,6 @@
+x=c(1121,408,184,16,741,170,991,711,734,202,893,742,335,444)
+qqnorm(x,main = "Q-Q Plot of infected buds")
+qqline(x, col=2, lwd=2)
+y=c(1870,1324,1446,1325,1759,1652,1364,1515,1065)
+qqnorm(y,main = "Q-Q Plot of healthy buds")
+qqline(y, col=2, lwd=2)

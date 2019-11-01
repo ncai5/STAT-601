@@ -1,0 +1,11 @@
+sample_mean = c()
+sample_variance = c()
+for (i in 1:100)
+{ sample<-rnorm(40,2,2)
+sample_mean<-cbind(sample_mean,mean(sample))
+sample_variance<-cbind(sample_variance,var(sample)
+)
+}
+par(mfrow=c(1,2))
+hist(sample_mean)
+hist(sample_variance)

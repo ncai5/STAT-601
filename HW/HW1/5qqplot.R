@@ -1,0 +1,5 @@
+biological_control <- c(37,42,12,32,97,68,14,29)
+chemical_control <- c(41,45,18,106,107,171,12,30)
+x=c(biological_control-chemical_control)
+qqnorm(x,main = "Q-Q Plot of difference of the two types of control")
+qqline(x, col=2, lwd=2)

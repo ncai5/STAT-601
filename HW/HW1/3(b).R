@@ -1,0 +1,12 @@
+par(mfrow=c(1,2))
+subject<-c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+Pretest<-c(30,28,31,26,20,30,34,15,28,20,30,29,31,29,34,20,26,25,31,29)
+boxplot(Pretest,range = 1.5,main="outlier of Pretest")
+Posttest<-c(29,30,32,30,16,25,31,18,33,25,32,28,34,32,32,27,28,29,32,32)
+boxplot(Posttest,range = 1.5,main="outlier of Posttest")
+
+par(mfrow=c(1,2))
+Pretest<-c(30,28,31,26,20,30,34,15,28,20,30,29,31,29,34,20,26,25,31,29)
+hist(Pretest,main="skewness of Pretest")
+Posttest<-c(29,30,32,30,16,25,31,18,33,25,32,28,34,32,32,27,28,29,32,32)
+hist(Posttest,main="skewness of Posttest")

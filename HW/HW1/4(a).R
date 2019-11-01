@@ -1,0 +1,11 @@
+Healthy<-c(1870,1324,1446,1325,1759,1652,1364,1515,1065)
+Infected<-c(1121,408,184,16,741,170,991,711,734,202,893,742,335,444)
+median(Healthy)
+mean(Healthy)
+sd(Healthy)
+median(Infected)
+mean(Infected)
+sd(Infected)
+boxplot(Healthy,main='Healthy')
+boxplot(Infected,main='Infected')
+
